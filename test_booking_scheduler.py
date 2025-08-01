@@ -16,7 +16,6 @@ CUSTOMER_WITH_MAIL = Customer("Fake name", "010-1234-5678", "test@test.com")
 UNDER_CAPACITY = 1
 CAPACITY_PER_HOUR = 3
 
-
 class TestableBookingScheduler(BookingScheduler):
     def __init__(self, capacity_per_hour, date_time: str):
         super().__init__(capacity_per_hour)
