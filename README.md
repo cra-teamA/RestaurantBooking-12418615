@@ -1,2 +1,0 @@
-# RestaurantBooking
-RestaurantBooking Mocking KATA
